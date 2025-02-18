@@ -1,0 +1,104 @@
+* {
+  font-family: arial;
+  margin: 0px;
+  padding: 0px;
+}
+main {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background-color: #b38d97;
+}
+header {
+  background-color: #424b54;
+  height: 50px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+header div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+}
+header img {
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+}
+.holder {
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 30px;
+  background-color: #ebcfb2;
+  box-shadow: 0px 0px 20px #d5aca9;
+  align-items: center;
+  padding: 10px;
+  padding-right: 0px;
+}
+.holder div {
+  display: flex;
+}
+.holder div div {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.holder div div div{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+footer{
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #424b54;
+  color: white;
+}
+.holder ul{
+    list-style: none;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.holder div img {
+  height: 300px;
+  width: 200px;
+  border-radius: 20px;
+  object-position: center;
+  object-fit: cover;
+}
+.holder ul li{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+html::-webkit-scrollbar{
+    display: none;
+}
+.modo{
+    background-color: #d5aca9;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90%;
+}
+.qtd{
+  padding: 5px;
+    display: flex;
+    min-width: 25px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #424b54;
+    color: white;
+}
